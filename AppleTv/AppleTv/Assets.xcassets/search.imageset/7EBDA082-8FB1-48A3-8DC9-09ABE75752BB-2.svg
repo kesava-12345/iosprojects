@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="43px" viewBox="0 0 43 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>EC461C67-712E-4B27-B11A-57F375890B8A</title>
+    <defs>
+        <linearGradient x1="50%" y1="1.11177885%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#D9D9F2" offset="0%"></stop>
+            <stop stop-color="#4B4B66" offset="100%"></stop>
+        </linearGradient>
+        <path d="M46,258.614 C46,253.312 50.312,249 55.614,249 C60.915,249 65.228,253.312 65.228,258.614 C65.228,263.915 60.915,268.227 55.614,268.227 C50.312,268.227 46,263.915 46,258.614 M72.099,271.563 L67.555,267.02 C69.233,264.641 70.228,261.746 70.228,258.614 C70.228,250.543 63.685,244 55.614,244 C47.543,244 41,250.543 41,258.614 C41,266.685 47.543,273.228 55.614,273.228 C58.746,273.228 61.641,272.233 64.02,270.555 L68.563,275.098 C69.051,275.587 69.691,275.831 70.331,275.831 C70.971,275.831 71.611,275.587 72.099,275.098 C73.075,274.122 73.075,272.54 72.099,271.563" id="path-2"></path>
+        <filter x="-28.3%" y="-28.3%" width="156.5%" height="156.5%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ico-search" transform="translate(-35.000000, -238.000000)">
+            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+        </g>
+    </g>
+</svg>

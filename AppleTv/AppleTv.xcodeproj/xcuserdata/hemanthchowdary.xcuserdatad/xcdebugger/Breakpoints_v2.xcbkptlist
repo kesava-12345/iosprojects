@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6E9D3D8E-2CDD-46AD-B894-5C79337DDD21"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1EDFE742-2250-4804-966B-3FE29EE529B3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppleTv/LeftmenuBar/SearchVideoVc.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "1EDFE742-2250-4804-966B-3FE29EE529B3 - 18ba117920adcb34"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppleTv.SearchVideoVc.body.getter : some"
+                  moduleName = "AppleTv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hemanthchowdary/Documents/AppleTv/AppleTv/LeftmenuBar/SearchVideoVc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "1304">
+               </Location>
+               <Location
+                  uuid = "1EDFE742-2250-4804-966B-3FE29EE529B3 - 5000d23d86838266"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in AppleTv.SearchVideoVc.body.getter : some"
+                  moduleName = "AppleTv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hemanthchowdary/Documents/AppleTv/AppleTv/LeftmenuBar/SearchVideoVc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "1EDFE742-2250-4804-966B-3FE29EE529B3 - 5000d23d86838207"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in AppleTv.SearchVideoVc.body.getter : some"
+                  moduleName = "AppleTv"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hemanthchowdary/Documents/AppleTv/AppleTv/LeftmenuBar/SearchVideoVc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

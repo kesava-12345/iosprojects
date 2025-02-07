@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="45px" viewBox="0 0 45 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>09FD3600-F074-487A-9C92-B4F61592D107</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#D5D5EE" offset="0%"></stop>
+            <stop stop-color="#50506B" offset="100%"></stop>
+        </linearGradient>
+        <path d="M59.439,861.263 C57.811,861.263 56.491,859.943 56.491,858.315 C56.491,856.687 57.811,855.367 59.439,855.367 C61.067,855.367 62.387,856.687 62.387,858.315 C62.387,859.943 61.067,861.263 59.439,861.263 M59.439,869.386 C57.811,869.386 56.491,868.066 56.491,866.438 C56.491,864.81 57.811,863.49 59.439,863.49 C61.067,863.49 62.387,864.81 62.387,866.438 C62.387,868.066 61.067,869.386 59.439,869.386 M59.439,877.51 C57.811,877.51 56.491,876.19 56.491,874.562 C56.491,872.933 57.811,871.614 59.439,871.614 C61.067,871.614 62.387,872.933 62.387,874.562 C62.387,876.19 61.067,877.51 59.439,877.51 M59.439,850 C50.36,850 43,857.359 43,866.438 C43,875.517 50.36,882.877 59.439,882.877 C68.518,882.877 75.878,875.517 75.878,866.438 C75.878,857.359 68.518,850 59.439,850" id="path-2"></path>
+        <filter x="-27.4%" y="-27.4%" width="154.7%" height="154.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ico-more" transform="translate(-37.000000, -844.000000)">
+            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+        </g>
+    </g>
+</svg>

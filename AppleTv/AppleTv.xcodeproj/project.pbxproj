@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB06FC4B29EE536E00FEEB9C /* AppleTvApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06FC4A29EE536E00FEEB9C /* AppleTvApp.swift */; };
+		AB06FC4F29EE536E00FEEB9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB06FC4E29EE536E00FEEB9C /* Assets.xcassets */; };
+		AB06FC5229EE536E00FEEB9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB06FC5129EE536E00FEEB9C /* Preview Assets.xcassets */; };
+		AB1559292A0BFBF2007D057F /* FavVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB88B7EE29FECBB400962769 /* FavVc.swift */; };
+		AB15592A2A0BFBF2007D057F /* HomeVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA6E25929FB5C3F00525E9A /* HomeVc.swift */; };
+		AB15592C2A0BFBF2007D057F /* NewVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB88B7EC29FECB9D00962769 /* NewVc.swift */; };
+		AB15592D2A0BFBF2007D057F /* SearchVideoVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7B667729F8132300C7E659 /* SearchVideoVc.swift */; };
+		AB15592E2A0BFBF2007D057F /* MoviesVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA6E25B29FB5C5600525E9A /* MoviesVc.swift */; };
+		AB15592F2A0BFBF2007D057F /* MoreVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB88B7F029FECBC900962769 /* MoreVc.swift */; };
+		AB1559302A0BFBF2007D057F /* MenuItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB79E9C729F3F0C300055C8F /* MenuItemList.swift */; };
+		AB1559312A0BFBF2007D057F /* StarVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB88B7F229FECBE500962769 /* StarVc.swift */; };
+		AB1559322A0BFBF2007D057F /* TvVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB88B7EA29FECB8900962769 /* TvVc.swift */; };
+		AB80706A2A23F3D200460233 /* contentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8070692A23F3D200460233 /* contentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB06FC4729EE536E00FEEB9C /* AppleTv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleTv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB06FC4A29EE536E00FEEB9C /* AppleTvApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleTvApp.swift; sourceTree = "<group>"; };
+		AB06FC4E29EE536E00FEEB9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB06FC5129EE536E00FEEB9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB79E9C729F3F0C300055C8F /* MenuItemList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemList.swift; sourceTree = "<group>"; };
+		AB7B667729F8132300C7E659 /* SearchVideoVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVideoVc.swift; sourceTree = "<group>"; };
+		AB8070692A23F3D200460233 /* contentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contentView.swift; sourceTree = "<group>"; };
+		AB88B7EA29FECB8900962769 /* TvVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvVc.swift; sourceTree = "<group>"; };
+		AB88B7EC29FECB9D00962769 /* NewVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewVc.swift; sourceTree = "<group>"; };
+		AB88B7EE29FECBB400962769 /* FavVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavVc.swift; sourceTree = "<group>"; };
+		AB88B7F029FECBC900962769 /* MoreVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreVc.swift; sourceTree = "<group>"; };
+		AB88B7F229FECBE500962769 /* StarVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarVc.swift; sourceTree = "<group>"; };
+		ABA6E25929FB5C3F00525E9A /* HomeVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVc.swift; sourceTree = "<group>"; };
+		ABA6E25B29FB5C5600525E9A /* MoviesVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesVc.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB06FC4429EE536E00FEEB9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB06FC3E29EE536E00FEEB9C = {
+			isa = PBXGroup;
+			children = (
+				AB06FC4929EE536E00FEEB9C /* AppleTv */,
+				AB06FC4829EE536E00FEEB9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB06FC4829EE536E00FEEB9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB06FC4729EE536E00FEEB9C /* AppleTv.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB06FC4929EE536E00FEEB9C /* AppleTv */ = {
+			isa = PBXGroup;
+			children = (
+				AB06FC4A29EE536E00FEEB9C /* AppleTvApp.swift */,
+				AB8070692A23F3D200460233 /* contentView.swift */,
+				AB5EE3AD29F0BAF30004BA64 /* LeftmenuBar */,
+				AB06FC4E29EE536E00FEEB9C /* Assets.xcassets */,
+				AB06FC5029EE536E00FEEB9C /* Preview Content */,
+			);
+			path = AppleTv;
+			sourceTree = "<group>";
+		};
+		AB06FC5029EE536E00FEEB9C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB06FC5129EE536E00FEEB9C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB5EE3AD29F0BAF30004BA64 /* LeftmenuBar */ = {
+			isa = PBXGroup;
+			children = (
+				AB79E9C729F3F0C300055C8F /* MenuItemList.swift */,
+				AB7B667729F8132300C7E659 /* SearchVideoVc.swift */,
+				ABA6E25929FB5C3F00525E9A /* HomeVc.swift */,
+				ABA6E25B29FB5C5600525E9A /* MoviesVc.swift */,
+				AB88B7EA29FECB8900962769 /* TvVc.swift */,
+				AB88B7EC29FECB9D00962769 /* NewVc.swift */,
+				AB88B7EE29FECBB400962769 /* FavVc.swift */,
+				AB88B7F029FECBC900962769 /* MoreVc.swift */,
+				AB88B7F229FECBE500962769 /* StarVc.swift */,
+			);
+			path = LeftmenuBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB06FC4629EE536E00FEEB9C /* AppleTv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB06FC5529EE536E00FEEB9C /* Build configuration list for PBXNativeTarget "AppleTv" */;
+			buildPhases = (
+				AB06FC4329EE536E00FEEB9C /* Sources */,
+				AB06FC4429EE536E00FEEB9C /* Frameworks */,
+				AB06FC4529EE536E00FEEB9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleTv;
+			productName = AppleTv;
+			productReference = AB06FC4729EE536E00FEEB9C /* AppleTv.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB06FC3F29EE536E00FEEB9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AB06FC4629EE536E00FEEB9C = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = AB06FC4229EE536E00FEEB9C /* Build configuration list for PBXProject "AppleTv" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB06FC3E29EE536E00FEEB9C;
+			productRefGroup = AB06FC4829EE536E00FEEB9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB06FC4629EE536E00FEEB9C /* AppleTv */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB06FC4529EE536E00FEEB9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB06FC5229EE536E00FEEB9C /* Preview Assets.xcassets in Resources */,
+				AB06FC4F29EE536E00FEEB9C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB06FC4329EE536E00FEEB9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB15592C2A0BFBF2007D057F /* NewVc.swift in Sources */,
+				AB15592A2A0BFBF2007D057F /* HomeVc.swift in Sources */,
+				AB1559292A0BFBF2007D057F /* FavVc.swift in Sources */,
+				AB1559322A0BFBF2007D057F /* TvVc.swift in Sources */,
+				AB15592E2A0BFBF2007D057F /* MoviesVc.swift in Sources */,
+				AB15592F2A0BFBF2007D057F /* MoreVc.swift in Sources */,
+				AB80706A2A23F3D200460233 /* contentView.swift in Sources */,
+				AB06FC4B29EE536E00FEEB9C /* AppleTvApp.swift in Sources */,
+				AB1559312A0BFBF2007D057F /* StarVc.swift in Sources */,
+				AB1559302A0BFBF2007D057F /* MenuItemList.swift in Sources */,
+				AB15592D2A0BFBF2007D057F /* SearchVideoVc.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AB06FC5329EE536E00FEEB9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 16.4;
+			};
+			name = Debug;
+		};
+		AB06FC5429EE536E00FEEB9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 16.4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB06FC5629EE536E00FEEB9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppleTv/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.AppleTv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		AB06FC5729EE536E00FEEB9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppleTv/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.AppleTv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB06FC4229EE536E00FEEB9C /* Build configuration list for PBXProject "AppleTv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB06FC5329EE536E00FEEB9C /* Debug */,
+				AB06FC5429EE536E00FEEB9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB06FC5529EE536E00FEEB9C /* Build configuration list for PBXNativeTarget "AppleTv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB06FC5629EE536E00FEEB9C /* Debug */,
+				AB06FC5729EE536E00FEEB9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB06FC3F29EE536E00FEEB9C /* Project object */;
+}
